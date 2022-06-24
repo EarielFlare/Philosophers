@@ -6,7 +6,7 @@
 #    By: cgregory <cgregory@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/17 10:09:46 by cgregory          #+#    #+#              #
-#    Updated: 2022/06/24 07:40:56 by cgregory         ###   ########.fr        #
+#    Updated: 2022/06/24 07:56:15 by cgregory         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ PHILO_H			=	philo_bonus.h
 HEADERS			=	./inc/
 OBJ				=	$(addprefix $(SRCS_DIR), $(SRCS:%.c=%.o))
 CC				=	cc
-LFLAGS			=	-pthread -fsanitize=thread
+LFLAGS			=	-pthread
 CFLAGS			=	-Wall -Wextra -Werror
 RM				=	rm -rf
 .PHONY			:	all clean fclean re bonus
